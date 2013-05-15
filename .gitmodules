@@ -1,0 +1,3 @@
+[submodule "node_modules/vow"]
+	path = node_modules/vow
+	url = git@github.com:dfilatov/jspromise.git

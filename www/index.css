@@ -1,0 +1,97 @@
+body {
+  padding:0;
+  background-color: #EEE;
+}
+div.header {
+  padding:0;
+  height: 50px;
+}
+div.footer {
+  padding:0;
+  height: 50px;
+}
+div.main {
+  width: 900px;
+  margin:auto;
+  padding-bottom: 30px;
+  background-color: #FFF;
+  padding-top: 30px;
+}
+div.patterns {
+  display: none;
+}
+div.presentation {
+  width: 500px;
+  margin: auto;
+}
+div.presentation div.navigation {
+  width: 400px;
+  height: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: #BBB;
+  margin: auto;
+}
+div.presentation div.navigation div {
+  border: 1px;
+  border-style: solid;
+  border-color: #BBB;
+  background-color: #BBB; 
+  height: 18px;
+  width:10px;
+  
+}
+div.presentation div.current-frame {
+  width: 400px;
+  height: 400px;
+  margin:auto;
+  padding-bottom:10px;
+}
+div.presentation div.current-frame img {
+  border: 1px;
+  border-color: #BBB;
+  border-style: solid;
+}
+div.presentation div.controls {
+  width: 400px;
+  margin: auto;
+  padding-top:10px;
+  text-align: center;
+}
+div.presentation-list {
+  width: 95%;
+  border: 1px;
+  border-color: #BBB;
+  border-style: solid;
+  margin:auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  max-height: 105px;
+  white-space: nowrap;
+}
+div.presentation-list div.pres-preview {
+  display: inline-block;
+  height: 85px;
+}
+div.presentation-list div.pres-preview img {
+  height: 80px;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top:3px;
+  margin-bottom:3px;
+  border: 1px;
+  border-color: #BBB;
+  border-style: solid;
+}
+div.presentation-list div.pres-preview.selected  img {
+  border: 4px;
+  border-color: #BBB;
+  border-style: solid;
+  margin-left: 10px;
+  margin-right: 10px; 
+  margin-top:0px;
+  margin-bottom:0px;
+}
