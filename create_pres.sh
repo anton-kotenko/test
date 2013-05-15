@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/env bash
 #generate list of presentations 
 #presentation is folder with images. One image --one page from presentation
 OUT_BASE=./www/images
